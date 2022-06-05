@@ -1,3 +1,10 @@
+@media only screen and (max-width: 830px) {
+    .background {
+        left: 5%;
+        right: 5%;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .image img {
         width: inherit;
@@ -7,7 +14,7 @@
 
     .division .section-absolute {
         position: absolute;
-        top: 65px;
+        top: 25px;
         text-align: left;
         left: 80px;
         font-weight: bold;
@@ -19,7 +26,7 @@
     }
 
     .nav {
-        top: 70px;
+        top: 35px;
         margin-top: 0;
         display: flex;
         flex-direction: column;
@@ -64,15 +71,32 @@
     .division {
         padding: 1.5rem !important;
     }
+    
+}
 
+@media only screen and (max-width: 768px) {
+    .background {
+        left: 5%;
+        right: 5%;
+    }
 }
 
 
 
 
+@media only screen and (max-width: 390px) {
+    .enter-app p {
+        font-size: 1.5rem;
+    }
+
+    .division {
+       padding-left: 2rem;
+    }
+}
 
 
-@media only screen and (min-width: 390px) {
+
+@media only screen and (max-width: 390px) {
     .nav span:nth-child(2) {
         font-size: 1.4rem;
     }
@@ -103,14 +127,19 @@
     }
 
     .nav span:nth-child(1) {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     .nav span:nth-child(2) {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .nav {
         top: 1.4rem;
+        
     }
 
+    .enter-app {
+        position: relative;
+    }
+    
 }

@@ -76,6 +76,9 @@ p, a {
     align-items: center;
     justify-content: center;
     padding: 1.5rem 0;
+}
+
+.enter-app {
     position: relative;
 }
 
