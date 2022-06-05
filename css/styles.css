@@ -75,14 +75,14 @@ p, a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3rem 0;
+    padding: 1.5rem 0;
 }
 
 .section.logo {
     display: flex;
     row-gap: 5px;
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .logo img {
