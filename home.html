@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/query.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" >
 
-        <div class="image-wrap">
+        <div class="image-wrap" data-aos="fade-right" >
             <div class="image">
                 <img id="image" src="/images/Layer 27 (6).png" alt="image">
             </div>
         </div>
         
-        <div class="header">
+        <div class="header" >
             <div class="nav">
                 <span>Wen Lambo?</span>
                 <span>Now Lambo</span>
@@ -27,15 +28,16 @@
         <div class="division" style="padding-left: 1rem;">
             
             
-                <div class="section-absolute">
+                <div class="section-absolute" >
                     <div class="sect">
-                        <div class="section sect-1">
+                        <div class="section sect-1" data-aos="zoom-in-up" data-aos-offset="200" data-aos-delay="100"
+                        data-aos-duration="1000">
                             <div class="launch-text">
                                 <p>Crypto Raffle Platform (launching soon)</p>
                             </div>
                         </div>
                 
-                        <div class="section">
+                        <div class="section" >
                             <div class="jackpot">
                                 <p>1000 ETH Jackpot!</p>
                                 <p>Audited</p>
@@ -48,11 +50,16 @@
            
             
     
-            <div class="section">
+            <div class="section" data-aos="zoom-out" data-aos-offset="100" data-aos-delay="100"
+            data-aos-duration="3000">
                 <div class="enter-app">
                     <p>
                         <a href="#">Enter App</a>
                     </p>
+                    <div class="background">
+                        <img src="/images//Join Discord copy.png" alt="">
+                    </div>
+                    
                 </div>
             </div>
     
@@ -68,5 +75,9 @@
     </div>
 
     <script src="/scripts/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

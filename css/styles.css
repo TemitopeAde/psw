@@ -68,7 +68,7 @@ p, a {
 
 .enter-app p{
     margin-top: 1rem;
-    background-image: url(/images/Join\ Discord\ copy.png);
+    /* background-image: url(/images/Join\ Discord\ copy.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -76,7 +76,22 @@ p, a {
     align-items: center;
     justify-content: center;
     padding: 1.5rem 0;
+    position: relative;
 }
+
+.background {
+    position: absolute;
+    left: 22%;
+    right: 22%;
+    top: -5px;
+    height: 100px;
+}
+
+.background img {
+    height: 100%;
+    width: 100%;
+}
+
 
 .section.logo {
     display: flex;

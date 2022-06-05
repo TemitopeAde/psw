@@ -92,7 +92,6 @@
     
     .image {
         padding: 0 9rem;
-        /* background: radial-gradient(circle, rgba(194,216,204,1) 0%, rgb(3 39 24) 100%); */
         background: radial-gradient(circle, rgb(181 201 190) 0%, rgb(3 39 24) 100%);
     }
 
