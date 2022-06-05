@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Magistral;
+    src: url(/Magistral/magistral/Magistral\ Regular.otf);
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Magistral';
+    background-color: #0b0f0d;
+}
+
+
+a {
+    text-decoration: none;
+    color: #87bfa7;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.containers {
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-wrap img {
+    object-fit: scale-down;
+    width: 100%;
+}
+
+
+.image-text {
+    position: absolute;
+    right: 40%;
+    top: 25px;
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+}
+
+.image-text .now {
+    margin-left: 70px;
+}
+
+
+.crypto {
+    position: absolute;
+    top: 150px;
+    z-index: 100;
+    background-image: url(/images/Group\ 5.png);
+    background-position: center;
+    background-size: contain;
+
+}
+
+.raffle {
+    position: absolute;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    top: 120px;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(0 0 0 / 79%) 0%, rgba(0, 0, 0, 0.005) 100%, rgba(255, 255, 255, 1) 100%);
+    padding-top: 5rem !important;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+
+.raf-1 {
+    font-size: 1.7rem;
+    background: linear-gradient(90deg, rgb(0 0 0 / 79%) 0%, rgba(0, 0, 0, 0.005) 100%, rgba(255, 255, 255, 1) 100%);
+}
+
+.now {
+    color: #64003c
+}
+
+.wen {
+    color: #2d352a;
+}
+
+.enter {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* background: linear-gradient(359deg, rgb(67 133 104) 0%, rgba(0,0,0,0.04572251263786764) 100%); */
+    width: 90%;
+    margin: 0 auto;
+    background-image: url(/images/Join\ Discord\ copy.png);
+    background-position: center;
+    background-size: contain;
+    
+}
+
+.enter:hover {
+    color: linear-gradient(359deg, rgb(67 133 104) 0%, rgba(0,0,0,0.04572251263786764) 100%);
+}
+
+.enter a,
+span a {
+    transition: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: relative;
+    opacity: .7;
+    
+}
+
+.enter a:hover{
+    color: #87bfa7;
+    opacity: 1;
+}
+
+.discord.fs-2:hover {
+    color: #87bfa7;
+    opacity: 1;
+}
+
+span img {
+    width: 100px;
+}
+
+#discord {
+    width: 70px;
+}
+
+.join-our {
+    gap: 35px;
+}

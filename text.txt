@@ -1,0 +1,11 @@
+#c2d8cc
+#466b5c
+#466b5c
+
+background: radial-gradient(circle, rgba(194,216,204,1) 0%, rgba(70,107,92,1) 100%);
+
+
+
+    background: radial-gradient(circle, rgb(255 255 255) 0%, rgba(70,107,92,1) 100%);
+
+    background: radial-gradient(circle, rgba(194,216,204,1) 0%, rgba(23,49,37,1) 48%);

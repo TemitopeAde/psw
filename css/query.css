@@ -1,0 +1,120 @@
+@media only screen and (min-width: 768px) {
+    .image img {
+        width: inherit;
+        height: 550px;
+    }
+
+
+    .division .section-absolute {
+        position: absolute;
+        top: 65px;
+        text-align: left;
+        left: 80px;
+        font-weight: bold;
+        right: 0;
+    }
+
+    .division {
+        margin-top: 34rem;
+    }
+
+    .nav {
+        top: 70px;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section.logo {
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        column-gap: 30px;
+        font-size: 2rem;
+    }
+
+    .enter-app p {
+        font-size: 1.8rem;
+    }
+
+    .section .jackpot {
+        padding: 1rem 0;
+        padding-top: 6rem;
+        background: linear-gradient(90deg, rgb(0 0 0 / 79%) 0%, rgba(0, 0, 0, 0.005) 100%, rgba(255, 255, 255, 1) 100%);
+    }
+
+    .sect {
+        position: relative;
+    }
+
+    .sect .sect-1 {
+        right: 0;
+        left: 95px;
+    }
+
+    .launch-text {
+        transform: translateY(80px);
+    }
+
+    .launch-text p,
+    .jackpot p {
+        padding-left: 19px;
+    }
+
+    .division {
+        padding: 1.5rem !important;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 390px) {
+    .nav span:nth-child(2) {
+        font-size: 1.4rem;
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+   
+    .division {
+        margin-top: 26rem;
+    }
+
+    .nav {
+        top: 2rem;
+    }
+    
+    .image {
+        padding: 0 9rem;
+        /* background: radial-gradient(circle, rgba(194,216,204,1) 0%, rgb(3 39 24) 100%); */
+        background: radial-gradient(circle, rgb(181 201 190) 0%, rgb(3 39 24) 100%);
+    }
+
+    .section.logo {
+        padding-bottom: 3rem;
+    }
+
+    #image {
+        width: -webkit-fill-available;
+        height: 385px; 
+        width: 694px;
+    }
+
+    .nav span:nth-child(1) {
+        font-size: 2.4rem;
+    }
+    .nav span:nth-child(2) {
+        font-size: 2.4rem;
+    }
+
+    .nav {
+        top: 1.4rem;
+    }
+
+}
