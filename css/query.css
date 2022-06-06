@@ -1,3 +1,5 @@
+
+
 @media only screen and (max-width: 830px) {
     .background {
         left: 5%;
@@ -143,3 +145,57 @@
     }
     
 }
+
+
+
+@media only screen and (min-width: 2560px) {
+    
+    #image {
+       height: 962px;
+       width: 1735px;
+    }
+
+    .division {
+        margin-top: 65rem;
+    }
+
+    .division p {
+        font-size: 4rem;
+    }
+    .background {
+        height: 200px;
+        top: -30px;
+    }
+
+    .section.logo {
+        margin-top: 5rem;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+    .nav span:nth-child(1) {
+        font-size: 3rem;
+    }
+    
+    .nav span:nth-child(2) {
+        font-size: 3rem;
+    } 
+    .section .jackpot {
+        padding-top: 10rem;
+    }
+    .launch-text {
+        transform: translateY(150px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
