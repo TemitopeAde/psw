@@ -1,5 +1,3 @@
-
-
 @media only screen and (max-width: 830px) {
     .background {
         left: 5%;
@@ -73,7 +71,7 @@
     .division {
         padding: 1.5rem !important;
     }
-    
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -92,7 +90,7 @@
     }
 
     .division {
-       padding-left: 2rem;
+        padding-left: 2rem;
     }
 }
 
@@ -107,7 +105,7 @@
 
 
 @media only screen and (min-width: 1024px) {
-   
+
     .division {
         margin-top: 26rem;
     }
@@ -115,7 +113,7 @@
     .nav {
         top: 2rem;
     }
-    
+
     .image {
         padding: 0 9rem;
         background: radial-gradient(circle, rgb(181 201 190) 0%, rgb(3 39 24) 100%);
@@ -124,35 +122,36 @@
 
     #image {
         width: -webkit-fill-available;
-        height: 385px; 
+        height: 385px;
         width: 694px;
     }
 
     .nav span:nth-child(1) {
         font-size: 1.6rem;
     }
+
     .nav span:nth-child(2) {
         font-size: 1.6rem;
     }
 
     .nav {
         top: 1.4rem;
-        
+
     }
 
     .enter-app {
         position: relative;
     }
-    
+
 }
 
 
 
-@media only screen and (min-width: 2560px) {
-    
+@media only screen and (max-width: 2800px) {
+
     #image {
-       height: 962px;
-       width: 1735px;
+        height: 962px;
+        width: 1735px;
     }
 
     .division {
@@ -162,9 +161,12 @@
     .division p {
         font-size: 4rem;
     }
+
     .background {
         height: 200px;
         top: -30px;
+        left: 12%;
+        right: 12%;
     }
 
     .section.logo {
@@ -174,38 +176,95 @@
     .logo img {
         width: 100px;
     }
+
     .nav span:nth-child(1) {
         font-size: 3rem;
     }
-    
+
     .nav span:nth-child(2) {
         font-size: 3rem;
-    } 
+    }
+
     .section .jackpot {
         padding-top: 10rem;
     }
+
     .launch-text {
         transform: translateY(150px);
     }
 }
 
-@media only screen and (min-width: 2256px) {
-    
-    #image {
-       height: 962px;
-       width: 1735px;
+@media only screen and (max-width: 2560px) {
+    .division {
+        margin-top: 63rem;
     }
 
+ 
+}
+
+@media only screen and (max-width: 1920px) {
+    #image {
+        height: 405px;
+        width: 805px;
+    }
+
+    .launch-text {
+        transform: translateY(100px);
+    }
+
+    .background {
+        position: absolute;
+        left: 22%;
+        right: 22%;
+    }
+
+
     .division {
-        margin-top: 65rem;
+        margin-top: 30rem;
     }
 
     .division p {
-        font-size: 4rem;
+        font-size: 1.8rem;
     }
+
+    .section .jackpot {
+        padding-top: 7rem;
+    }
+
     .background {
-        height: 200px;
-        top: -30px;
+        height: 160px;
+    }
+
+    .nav span:nth-child(1) {
+        font-size: 2.2rem;
+    }
+
+    .nav span:nth-child(2) {
+        font-size: 2.2rem;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1440px) {
+
+    #image {
+        height: 385px;
+        width: 695px;
+    }
+
+    .division {
+        margin-top: 28rem;
+    }
+
+    .division p {
+        font-size: 2rem;
+    }
+
+    .background {
+        height: 120px;
+        top: -10px;
     }
 
     .section.logo {
@@ -215,68 +274,22 @@
     .logo img {
         width: 100px;
     }
+
     .nav span:nth-child(1) {
-        font-size: 3rem;
+        font-size: 2rem;
     }
-    
+
     .nav span:nth-child(2) {
-        font-size: 3rem;
-    } 
+        font-size: 2rem;
+    }
+
     .section .jackpot {
-        padding-top: 10rem;
+        padding-top: 7rem;
     }
+
     .launch-text {
-        transform: translateY(150px);
+        transform: translateY(100px);
     }
+
+
 }
-
-@media only screen and (min-width: 1920px) {
-    
-    #image {
-       height: 768px;
-       width: 1388px;
-    }
-
-    .division {
-        margin-top: 49rem;
-    }
-
-    .division p {
-        font-size: 3rem;
-    }
-    .background {
-        height: 180px;
-        top: -30px;
-        left: 13%;
-        right: 13%;
-    }
-
-    .section.logo {
-        margin-top: 2rem;
-    }
-
-    .logo img {
-        width: 100px;
-    }
-    .nav span:nth-child(1) {
-        font-size: 3rem;
-    }
-    
-    .nav span:nth-child(2) {
-        font-size: 3rem;
-    } 
-    .section .jackpot {
-        padding-top: 10rem;
-    }
-    .launch-text {
-        transform: translateY(150px);
-    }
-}
-
-
-
-
-
-
-
-
